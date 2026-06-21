@@ -85,6 +85,8 @@ describe('<PokemonPage />', () => {
 
     expect(screen.getByText('adaptability')).toBeVisible()
     expect(screen.getByText('anticipation')).toBeVisible()
+    expect(screen.getByText('Ability')).toBeVisible()
+    expect(screen.getByText('Hidden ability')).toBeVisible()
   })
 
   it('should render stats', async () => {
